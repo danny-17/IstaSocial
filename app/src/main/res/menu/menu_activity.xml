@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menItem_Lista"
+        android:icon="@drawable/users"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item
+        android:id="@+id/menItem_Registro"
+        android:icon="@drawable/add"
+        android:title="delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menItem_Cerrar"
+        android:icon="@drawable/exit"
+        android:title="agg"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27590284825",
+    "firebase_url": "https://socialista-7641f.firebaseio.com",
+    "project_id": "socialista-7641f",
+    "storage_bucket": "socialista-7641f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27590284825:android:b09dcbceb36db6e408bc88",
+        "android_client_info": {
+          "package_name": "com.M4A.istasocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27590284825-obe17guuia9io6d23goa92g4jjsu2gqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.M4A.istasocial",
+            "certificate_hash": "9d43b7e7a2fd6897061fe6611be24fed2d3671a2"
+          }
+        },
+        {
+          "client_id": "27590284825-r09tnohf89cf1ia2nj33uphmq8dfvv44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7XTcxRtFL5YL9cDKW5ZAPoPqBbOigaGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27590284825-r09tnohf89cf1ia2nj33uphmq8dfvv44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                cardview:contentPadding="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                cardview:cardCornerRadius="20sp"
+                cardview:cardBackgroundColor="#FFEB3B">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10sp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/FotoPerfilMensaje"
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:src="@mipmap/ic_launcher" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+
+                                android:id="@+id/nombreMensaje"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Kevin" />
+
+                            <TextView
+                                android:id="@+id/horaMensaje"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/mensajeMensaje"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="hola" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imagenMensaje"
+                            android:visibility="gone"
+                            android:adjustViewBounds="true"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

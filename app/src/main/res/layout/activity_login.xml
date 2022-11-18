@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Login"
+    android:padding="10sp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/correoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo"
+        android:inputType="textEmailAddress"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/contraseñaLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Login_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Login"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Login_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Registrarse"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
